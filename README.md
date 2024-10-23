@@ -1,1 +1,1 @@
-# SimpleCalApp
+# Calc ItUp
