@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: calculator
-        image: abicaleb/calculator-web-app:v1
-        imagePullPolicy: Always
+        image: abicaleb/calculator-web-app:v2
+        imagePullPolicy: Never  # This tells Kubernetes to use the local image
         ports:
         - containerPort: 5000
