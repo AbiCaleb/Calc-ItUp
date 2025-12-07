@@ -1,9 +1,9 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: myingress
+  name: Calc-It-Up-ingress
   labels:
-    app.kubernetes.io/name: myingress
+    app.kubernetes.io/name: Calc-It-Up-ingress
 spec:
   rules:
   - host: calculator.local
